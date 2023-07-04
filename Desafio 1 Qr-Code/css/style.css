@@ -1,0 +1,152 @@
+/*site reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    overflow-x: hidden;
+}
+
+/*style body*/
+body {
+    background-color: hsl(0, 0%, 94%);
+}
+
+/*style of the div that has the information*/
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-information {
+    width: 90%;
+    height: 70%;
+
+    background-color: hsl(212, 45%, 89%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 20px 22px rgb(224, 224, 224);
+}
+
+.background-code {
+    background-color: hsl(0, 0%, 100%);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 20px;
+
+    padding: 16px;
+
+    width: 290px;
+    height: 450px;
+
+    gap: 20px;
+}
+
+/*style img and texts*/
+#img-code {
+    width: 260px;
+    border-radius: 10px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    text-align: center;
+}
+
+.title {
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.explication {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: hsl(225, 3%, 71%);
+
+}
+
+/*figures styles*/
+.circle-12 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 6px;
+    position: absolute;
+    left: -10px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #6fc4da;
+}
+
+.shape-L {
+    position: absolute;
+    top: 0;
+    right: 35%;
+}
+
+.vertical-line {
+    background-color: #f9c6c5;
+    width: 10px;
+    height: 80px;
+}
+
+.horizontal-line {
+    background-color: #f9c6c5;
+    width: 50px;
+    height: 10px;
+    border-radius: 4px;
+    margin-top: -5px;
+}
+
+.slanted-lines {
+    position: absolute;
+    right: -20px;
+    top: 30%;
+
+    z-index: -2;
+}
+
+.slanted-lines img {
+    width: 120px;
+}
+
+.slanted-rectangle {
+    position: absolute;
+    bottom: 0;
+    left: 26%;
+}
+
+.slanted-rectangle img {
+    width: 60px;
+    height: 100px;
+}
+
+.shape-circle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.circle-no {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid 8px rgba(213, 225, 239, 0.5);
+}
